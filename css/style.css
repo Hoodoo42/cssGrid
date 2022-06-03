@@ -29,9 +29,13 @@ img{
 }
 
 #section2{
+    background-color: darkblue;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 
     
+#section2 img{
+    width: 100%;
+}
